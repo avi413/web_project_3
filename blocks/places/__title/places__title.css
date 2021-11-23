@@ -9,5 +9,21 @@
     max-width: 460px;
     display: flex;
     align-items: flex-end;
-
 }
+
+@media screen and (max-width: 768px){
+    .places__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: auto 16px ;
+    }
+}
+
+

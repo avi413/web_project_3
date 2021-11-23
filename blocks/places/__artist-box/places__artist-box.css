@@ -2,3 +2,10 @@
     position: absolute;
     bottom: 0;
 }
+
+@media screen and (max-width: 320px){
+    .places__artist-box {
+        position: relative;
+        margin: auto 16px ;
+    }
+}

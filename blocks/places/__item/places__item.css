@@ -3,7 +3,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 230px 180px auto;
     grid-template-areas:
     "title artist"
@@ -11,7 +11,33 @@
     "img desc"
     "btn desc";
     max-width: 984px;
-    margin: auto;
+    margin: auto 148px;
     gap: 48px 40px;
     
+}
+ 
+@media screen and (max-width: 768px){
+    .places__item {
+        margin: auto 24px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 145px 145px auto;
+        max-width: 720px;
+        gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__item {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "title"
+        "artist"
+        "img"
+        "desc"
+        "btn";
+        max-width: 320px;
+        margin: auto;
+        gap: 30px;
+    }
 }

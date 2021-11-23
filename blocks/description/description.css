@@ -5,3 +5,16 @@
     margin: auto 148px;
     gap: 32px;
 }
+@media screen and (max-width: 768px){
+    .description {
+        margin: auto 0;
+        
+    }
+}
+
+@media screen and (max-width: 320px){
+    .description {
+        padding-top: 50px;
+    }
+}
+   

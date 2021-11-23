@@ -7,3 +7,10 @@
     gap: 32px;
     top: 32%;
 }
+
+@media screen and (max-width: 320px){
+    .cover__info {
+        gap: 16px;
+        top: 15%;
+    }
+}

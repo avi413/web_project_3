@@ -6,3 +6,15 @@
     grid-area: img;
 
 }
+
+@media screen and (max-width: 768px){
+    .places__img {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places__img {
+        max-width: 320px;
+    }
+}

@@ -3,4 +3,5 @@
     flex-direction: column;
     gap: 25px;
     grid-area: desc;
+    width: 100%;
 }

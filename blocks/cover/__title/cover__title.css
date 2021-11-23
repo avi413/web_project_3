@@ -8,5 +8,11 @@
     letter-spacing: 0em;
     text-align: center;
     z-index: 1;
+}
 
+@media screen and (max-width: 320px){
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

@@ -2,7 +2,6 @@
     border: none;
 	font: inherit;
 	cursor: pointer;
-    max-width: 248px;
     height: 48px;
     background: #0278FE;
     border-radius: 4px;
@@ -11,6 +10,6 @@
     font-style: normal;
     font-weight: 600;
     color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 13px 20px;
+
 }

@@ -6,3 +6,16 @@
   filter: grayscale(100%);
   margin-top: 32px;
 }
+
+@media screen and (max-width: 768px){
+  .description__img {
+      margin-top: 4px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .description__img {
+      max-height: 200px;
+      margin-top: 8px;
+  }
+}

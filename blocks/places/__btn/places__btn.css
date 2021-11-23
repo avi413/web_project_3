@@ -1,3 +1,11 @@
 .places__btn {
     grid-area: btn;
+    max-width: 248px;
+    
+}
+@media screen and (max-width: 320px){
+    .places__btn  {
+        margin: auto 16px ;
+        max-width: 288px;
+    }
 }
