@@ -1,0 +1,7 @@
+.description {
+    padding-top: 90px;
+    display: grid;
+    place-items: center;
+    margin: auto 148px;
+    gap: 32px;
+}

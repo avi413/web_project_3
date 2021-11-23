@@ -1,0 +1,17 @@
+.places__item {
+    display: grid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto 230px 180px auto;
+    grid-template-areas:
+    "title artist"
+    "img desc"
+    "img desc"
+    "btn desc";
+    max-width: 984px;
+    margin: auto;
+    gap: 48px 40px;
+    
+}

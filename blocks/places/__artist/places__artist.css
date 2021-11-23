@@ -1,0 +1,4 @@
+.places__artist {
+    grid-area: artist;
+    position: relative;
+}

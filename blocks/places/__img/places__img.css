@@ -1,0 +1,8 @@
+.places__img {
+    width: 100%;
+    max-width: 460px;
+    background-size: cover;
+    background-position: center;
+    grid-area: img;
+
+}

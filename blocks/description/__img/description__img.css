@@ -1,0 +1,8 @@
+.description__img {
+    max-width: 100%;
+    width: 984px;
+    height: 615px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  margin-top: 32px;
+}

@@ -1,0 +1,6 @@
+.cover {
+    display: flex;
+    margin: 92px auto 0px;
+    justify-content: center;
+    position: relative;
+}
