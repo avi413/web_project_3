@@ -1,18 +1,18 @@
-.intro {
+.intro__info {
     padding-top: 92px;
     display: grid;
     margin: auto 148px;
 }
 
 @media screen and (max-width: 768px){
-    .intro {
+    .intro__info {
         margin: 64px 24px 40px;
         padding: 0;
     }
 }
 
 @media screen and (max-width: 320px){
-    .intro {
+    .intro__info {
         margin: 64px 16px 0;
     }
 }
