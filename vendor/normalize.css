@@ -20,7 +20,7 @@
  * Remove the margin in all browsers.
  */
 
-body ,h1 ,h2 ,p ,blockquote {
+body {
   margin: 0;
 }
 
@@ -30,6 +30,16 @@ body ,h1 ,h2 ,p ,blockquote {
 
 main {
   display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -143,7 +153,8 @@ img {
    ========================================================================== */
 
 /**
-. Remove the margin in Firefox and Safari.
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
  */
 
 button,
@@ -151,7 +162,10 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 0; 
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**

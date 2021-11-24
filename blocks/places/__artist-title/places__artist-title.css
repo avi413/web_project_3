@@ -9,6 +9,7 @@
     color: #AAAAAA;
     margin-bottom: 8px;
     max-width: 484px;
+    margin: 0;
 }
 
 @media screen and (max-width: 380px){

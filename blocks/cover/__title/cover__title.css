@@ -8,6 +8,7 @@
     letter-spacing: 0em;
     text-align: center;
     z-index: 1;
+    margin: 0;
 }
 
 @media screen and (max-width: 320px){
