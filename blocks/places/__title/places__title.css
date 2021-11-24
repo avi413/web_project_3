@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 380px){
     .places__title {
-        font-size: 32px;
-        line-height: 35px;
+        font-size: 22px;
+        line-height: 28px;
         margin: auto 16px ;
     }
 }
