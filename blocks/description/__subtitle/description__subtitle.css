@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 490px){
-    .description__title {
+    .description__subtitle {
         font-size: 22px;
         line-height: 25px;
     }
