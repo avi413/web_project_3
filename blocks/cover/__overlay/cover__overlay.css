@@ -14,3 +14,9 @@
         height: 746px;
     }
 }
+
+@media screen and (max-width: 320px){
+    .cover__overlay {
+        height: 254px;
+    }
+}

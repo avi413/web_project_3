@@ -1,11 +1,19 @@
 .places__btn {
     grid-area: btn;
     max-width: 248px;
-    
 }
+
+@media screen and (max-width: 570px){
+    .places__btn  {
+        font-size: 13px;
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 320px){
     .places__btn  {
         margin: auto 16px ;
+        font-size: 18px;
         max-width: 288px;
     }
 }

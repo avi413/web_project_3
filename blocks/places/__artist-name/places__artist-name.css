@@ -8,3 +8,10 @@
     text-align: left;
 
 }
+
+@media screen and (max-width: 380px){
+    .places__artist-name {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

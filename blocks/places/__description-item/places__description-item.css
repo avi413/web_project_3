@@ -15,6 +15,13 @@
     }
 }
 
+@media screen and (max-width: 380px){
+    .places__description-item  {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
 @media screen and (max-width: 320px){
     .places__description-item  {
         margin: auto 16px ;

@@ -10,3 +10,10 @@
     margin-bottom: 8px;
     max-width: 484px;
 }
+@media screen and (max-width: 380px){
+    .places__artist-title{
+        font-size: 14px;
+        line-height: 18px;
+;
+    }
+}

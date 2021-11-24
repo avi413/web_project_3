@@ -1,4 +1,5 @@
 @import url("../vendor/normalize.css");
+@import url("../blocks/btn/btn.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/_theme/page_theme_dark.css");
 @import url("../blocks/header/header.css");
@@ -35,4 +36,3 @@
 @import url("../blocks/cover/__btn/cover__btn.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__author/footer__author.css");
-@import url("../blocks/btn/btn.css");
