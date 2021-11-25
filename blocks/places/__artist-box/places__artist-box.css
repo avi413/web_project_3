@@ -1,6 +1,7 @@
 .places__artist-box {
-    position: absolute;
-    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
 }
 
 @media screen and (max-width: 320px){

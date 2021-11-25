@@ -5,6 +5,7 @@
     background-size: cover;
     background-color:rgba(42, 44, 47, 0.3);
     background-blend-mode: multiply;
+    background-image: url(/images/practicum-art-gallery-background-cover.jpg);
 }
 @media screen and (max-width: 768px){
     .cover__img {
