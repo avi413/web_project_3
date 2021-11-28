@@ -1,6 +1,6 @@
 .cover__title {
     top: calc(243px - (100% - 740px));
-    font-family: Inter-Black;
+    font-family: Inter-Black, sans-serif;;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
