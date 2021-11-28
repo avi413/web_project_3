@@ -1,6 +1,6 @@
 @import url("../vendor/normalize.css");
 @import url("../fonts/fonts.css");
-@import url("../blocks/body/_theme/body_theme_dark.css");
+@import url("../blocks/body/body.css");
 @import url("../blocks/btn/btn.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
@@ -14,7 +14,7 @@
 @import url("../blocks/intro/__quote/intro__quote.css");
 @import url("../blocks/intro/__quote-author/intro__quote-author.css");
 @import url("../blocks/intro/__paragraph/intro__paragraph.css");
-@import url("../blocks/galery/galery.css");
+@import url("../blocks/galery/__list/galery__list.css");
 @import url("../blocks/galery/__item/galery__item.css");
 @import url("../blocks/galery/__item-img/galery__item-img.css");
 @import url("../blocks/places/places.css");
@@ -22,7 +22,6 @@
 @import url("../blocks/places/__title/places__title.css");
 @import url("../blocks/places/__img/places__img.css");
 @import url("../blocks/places/__btn/places__btn.css");
-@import url("../blocks/places/__artist/places__artist.css");
 @import url("../blocks/places/__artist-title/places__artist-title.css");
 @import url("../blocks/places/__artist-name/places__artist-name.css");
 @import url("../blocks/places/__artist-box/places__artist-box.css");
