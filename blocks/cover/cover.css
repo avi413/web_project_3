@@ -1,12 +1,30 @@
 .cover {
     display: flex;
-    margin: 92px auto 0px;
+    margin: 92px auto auto;
     justify-content: center;
-    position: relative;
+    align-items: center;
+    min-height: 740px;
+    background-size: cover;
+    background-color:rgba(42, 44, 47, 0.3);
+    background-blend-mode: multiply;
+    background-image: url('../../../images/practicum-art-gallery-background-cover.jpg');
+    max-width: 100%;
+}
+
+.cover:hover {
+    background-color:rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 768px){
+    .cover  {
+        margin: 64px auto;
+        height: 746px;
+    }
 }
 
 @media screen and (max-width: 320px){
     .cover  {
         margin: 64px auto;
+        height: 254px;
     }
 }
