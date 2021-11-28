@@ -1,6 +1,6 @@
 .cover {
     display: flex;
-    margin: 92px auto auto;
+    margin: 92px auto 0;
     justify-content: center;
     align-items: center;
     min-height: 740px;
@@ -17,14 +17,13 @@
 
 @media screen and (max-width: 768px){
     .cover  {
-        margin: 64px auto;
+        margin: 64px auto 0;
         height: 746px;
     }
 }
 
 @media screen and (max-width: 320px){
     .cover  {
-        margin: 64px auto;
         height: 254px;
     }
 }
