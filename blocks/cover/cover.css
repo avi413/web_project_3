@@ -1,23 +1,32 @@
 .cover {
     display: flex;
-    margin: 92px auto 0;
     justify-content: center;
     align-items: center;
+    margin: 92px auto 0;
     min-height: 740px;
     background-size: cover;
-    background-color:rgba(42, 44, 47, 0.3);
-    background-blend-mode: multiply;
     background-image: url('../../images/practicum-art-gallery-background-cover.jpg');
-    max-width: 100%;
+    max-width: 1184px;
+    position: relative;
 }
 
-.cover:hover {
+.cover::after {
+    content: "";
+    background-color:rgba(42, 44, 47, 0.3);
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+  }
+
+.cover:hover:after {
     background-color:rgba(42, 44, 47, 0.8);
+    transition: .5s;
 }
 
 @media screen and (max-width: 768px){
     .cover  {
-        margin: 64px auto 0;
         min-height: 746px;
     }
 }

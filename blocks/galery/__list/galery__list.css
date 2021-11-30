@@ -21,7 +21,7 @@
     .galery__list {
         grid-template-columns: auto;
         grid-template-rows: auto;
-        margin: 90px 16px 82px;
+        margin: 90px 16px 62px;
         grid-gap: 12px;
     }
 }
