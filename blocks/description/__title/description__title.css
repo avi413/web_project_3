@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 520px){
     .description__title {
         font-size: 60px;
         line-height: 65px;
