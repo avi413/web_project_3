@@ -4,6 +4,7 @@
     place-items: center;
     margin: auto 148px;
     gap: 32px;
+    max-width: 984px;
 }
 @media screen and (max-width: 768px){
     .description {

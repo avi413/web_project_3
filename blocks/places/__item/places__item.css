@@ -16,9 +16,14 @@
     
 }
  
+@media screen and (max-width: 960px){
+    .places__item {
+        margin: auto 24px;  
+    }
+}
+
 @media screen and (max-width: 768px){
     .places__item {
-        margin: auto 24px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto 145px 145px auto;
         max-width: 720px;
